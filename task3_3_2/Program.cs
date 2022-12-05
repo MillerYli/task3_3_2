@@ -13,5 +13,9 @@ class MyProgramm
         Console.WriteLine("I am " + Age + " years old");
         Console.WriteLine("Do you have pats " + Pets);
         Console.WriteLine("My size " + MySize);
+
+        //Проверка занчений в типе данных
+        Console.WriteLine("IntMin{0}", int.MinValue);
+        Console.WriteLine("IntMax{0}", int.MaxValue);
     }
 }
